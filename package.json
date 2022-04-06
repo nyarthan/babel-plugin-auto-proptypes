@@ -1,0 +1,32 @@
+{
+  "name": "babel-plugin-auto-proptypes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib",
+  "scripts": {
+    "example": "cd example && pnpm dev",
+    "build": "node scripts/build.cjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jannis-Morgenstern/babel-plugin-auto-proptypes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jannis-Morgenstern/babel-plugin-auto-proptypes/issues"
+  },
+  "homepage": "https://github.com/Jannis-Morgenstern/babel-plugin-auto-proptypes#readme",
+  "dependencies": {
+    "@babel/core": "^7.17.9",
+    "@babel/generator": "^7.17.9",
+    "@babel/parser": "^7.17.9",
+    "@babel/traverse": "^7.17.9"
+  },
+  "devDependencies": {
+    "esbuild": "^0.14.32",
+    "glob": "^7.2.0",
+    "typescript": "^4.6.3"
+  }
+}
